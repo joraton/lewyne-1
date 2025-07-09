@@ -38,7 +38,7 @@ export default function IntroductionPage() {
             <h1 className="text-3xl md:text-4xl font-bold text-gray-900">Introduction</h1>
           </div>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Découvrez les concepts fondamentaux de l'évaluation financière et les différentes approches méthodologiques.
+            Découvrez les concepts fondamentaux de l&apos;évaluation financière et les différentes approches méthodologiques.
           </p>
         </motion.div>
 
@@ -54,10 +54,10 @@ export default function IntroductionPage() {
               <div className="flex items-start gap-3">
                 <Target className="w-6 h-6 text-blue-500 mt-1 flex-shrink-0" />
                 <div>
-                  <h3 className="text-lg font-semibold text-blue-900 mb-2">Objectifs d'apprentissage</h3>
+                  <h3 className="text-lg font-semibold text-blue-900 mb-2">Objectifs d&apos;apprentissage</h3>
                   <ul className="text-blue-800 space-y-1">
-                    <li>• Comprendre les enjeux de l'évaluation d'entreprise</li>
-                    <li>• Maîtriser les différentes méthodes d'évaluation</li>
+                    <li>• Comprendre les enjeux de l&apos;évaluation d&apos;entreprise</li>
+                    <li>• Maîtriser les différentes méthodes d&apos;évaluation</li>
                     <li>• Savoir choisir la méthode appropriée selon le contexte</li>
                     <li>• Appliquer les concepts à des cas pratiques</li>
                   </ul>
@@ -65,12 +65,12 @@ export default function IntroductionPage() {
               </div>
             </div>
 
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Qu'est-ce que l'évaluation financière ?</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">Qu&apos;est-ce que l&apos;évaluation financière ?</h2>
             
             <p className="text-gray-700 leading-relaxed mb-6">
-              L'évaluation financière est un processus complexe qui vise à déterminer la valeur économique d'une entreprise, 
-              d'un actif ou d'un projet d'investissement. Cette discipline est au cœur de nombreuses décisions stratégiques : 
-              fusions-acquisitions, introduction en bourse, cession d'activités, ou encore évaluation de projets d'investissement.
+              L&apos;évaluation financière est un processus complexe qui vise à déterminer la valeur économique d&apos;une entreprise,
+                d&apos;un actif ou d&apos;un projet d&apos;investissement. Cette discipline est au cœur de nombreuses décisions stratégiques :
+                fusions-acquisitions, introduction en bourse, cession d&apos;activités, ou encore évaluation de projets d&apos;investissement.
             </p>
 
             <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 mb-8 rounded-r-lg">
@@ -79,14 +79,14 @@ export default function IntroductionPage() {
                 <div>
                   <h4 className="text-lg font-semibold text-yellow-900 mb-2">Point clé</h4>
                   <p className="text-yellow-800">
-                    Il n'existe pas une seule "vraie" valeur d'une entreprise, mais plutôt une fourchette de valeurs 
+                    Il n&apos;existe pas une seule "vraie" valeur d&apos;une entreprise, mais plutôt une fourchette de valeurs 
                     dépendant de la méthode utilisée, du contexte et des hypothèses retenues.
                   </p>
                 </div>
               </div>
             </div>
 
-            <h3 className="text-xl font-bold text-gray-900 mb-4">Les principales approches d'évaluation</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-4">Les principales approches d&apos;évaluation</h3>
             
             <div className="grid md:grid-cols-2 gap-6 mb-8">
               <div className="bg-green-50 p-6 rounded-xl border border-green-200">
@@ -100,8 +100,8 @@ export default function IntroductionPage() {
               <div className="bg-purple-50 p-6 rounded-xl border border-purple-200">
                 <h4 className="text-lg font-semibold text-purple-900 mb-3">2. Méthodes Intrinsèques</h4>
                 <p className="text-purple-800 text-sm">
-                  Fondées sur l'actualisation des flux de trésorerie futurs (DCF - Discounted Cash Flow) 
-                  et la capacité de l'entreprise à générer de la valeur.
+                  Fondées sur l&apos;actualisation des flux de trésorerie futurs (DCF - Discounted Cash Flow)
+                et la capacité de l&apos;entreprise à générer de la valeur.
                 </p>
               </div>
             </div>
@@ -110,9 +110,9 @@ export default function IntroductionPage() {
             
             <div className="space-y-4 mb-8">
               <div className="border border-gray-200 rounded-lg p-4">
-                <h5 className="font-semibold text-gray-900 mb-2">Valeur d'Entreprise (VE)</h5>
+                <h5 className="font-semibold text-gray-900 mb-2">Valeur d&apos;Entreprise (VE)</h5>
                 <p className="text-gray-700 text-sm">
-                  Valeur totale de l'entreprise, indépendamment de sa structure financière. 
+                  Valeur totale de l&apos;entreprise, indépendamment de sa structure financière. 
                   Elle représente la valeur des actifs économiques.
                 </p>
               </div>
@@ -120,7 +120,7 @@ export default function IntroductionPage() {
               <div className="border border-gray-200 rounded-lg p-4">
                 <h5 className="font-semibold text-gray-900 mb-2">Capitalisation Boursière</h5>
                 <p className="text-gray-700 text-sm">
-                  Valeur de marché des capitaux propres, calculée en multipliant le nombre d'actions 
+                  Valeur de marché des capitaux propres, calculée en multipliant le nombre d&apos;actions 
                   par le cours de bourse.
                 </p>
               </div>
@@ -128,7 +128,7 @@ export default function IntroductionPage() {
               <div className="border border-gray-200 rounded-lg p-4">
                 <h5 className="font-semibold text-gray-900 mb-2">Multiples de Valorisation</h5>
                 <p className="text-gray-700 text-sm">
-                  Ratios permettant de comparer la valorisation d'entreprises similaires 
+                  Ratios permettant de comparer la valorisation d&apos;entreprises similaires 
                   (P/E, EV/EBITDA, EV/Sales, etc.).
                 </p>
               </div>
@@ -142,7 +142,7 @@ export default function IntroductionPage() {
               <ul className="text-gray-700 space-y-1">
                 <li><strong>C</strong>omparables (méthodes analogiques)</li>
                 <li><strong>A</strong>ctualisation (méthode DCF)</li>
-                <li><strong>V</strong>aleur d'entreprise vs valeur des fonds propres</li>
+                <li><strong>V</strong>aleur d&apos;entreprise vs valeur des fonds propres</li>
                 <li><strong>E</strong>stimation finale et fourchette de valeurs</li>
               </ul>
             </div>

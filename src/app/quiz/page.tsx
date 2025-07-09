@@ -16,39 +16,39 @@ interface Question {
 const questions: Question[] = [
   {
     id: 1,
-    question: "Quelle est la formule de la Valeur d'Entreprise (VE) ?",
+    question: "Quelle est la formule de la Valeur d&apos;Entreprise (VE) ?",
     options: [
       "VE = Capitalisation boursière + Dettes financières nettes",
       "VE = Capitalisation boursière - Dettes financières nettes",
       "VE = Actif total - Passif total",
-      "VE = Chiffre d'affaires × Multiple sectoriel"
+      "VE = Chiffre d&apos;affaires × Multiple sectoriel"
     ],
     correct: 0,
-    explanation: "La Valeur d'Entreprise correspond à la capitalisation boursière augmentée des dettes financières nettes. Elle représente la valeur totale de l'entreprise."
+    explanation: "La Valeur d&apos;Entreprise correspond à la capitalisation boursière augmentée des dettes financières nettes. Elle représente la valeur totale de l&apos;entreprise."
   },
   {
     id: 2,
     question: "Dans la méthode DCF, que représente le Free Cash Flow (FCF) ?",
     options: [
-      "Le résultat net de l'entreprise",
+      "Le résultat net de l&apos;entreprise",
       "Les flux de trésorerie disponibles pour les actionnaires et créanciers",
-      "Le chiffre d'affaires moins les charges",
+      "Le chiffre d&apos;affaires moins les charges",
       "Les dividendes versés aux actionnaires"
     ],
     correct: 1,
-    explanation: "Le FCF représente les flux de trésorerie générés par l'activité opérationnelle, disponibles pour rémunérer les pourvoyeurs de capitaux (actionnaires et créanciers)."
+    explanation: "Le FCF représente les flux de trésorerie générés par l&apos;activité opérationnelle, disponibles pour rémunérer les pourvoyeurs de capitaux (actionnaires et créanciers)."
   },
   {
     id: 3,
-    question: "Quel multiple boursier compare la valeur d'entreprise au résultat d'exploitation ?",
+    question: "Quel multiple boursier compare la valeur d&apos;entreprise au résultat d&apos;exploitation ?",
     options: [
-      "VE/CA (Valeur d'Entreprise / Chiffre d'Affaires)",
-      "VE/EBE (Valeur d'Entreprise / Excédent Brut d'Exploitation)",
-      "VE/RE (Valeur d'Entreprise / Résultat d'Exploitation)",
+      "VE/CA (Valeur d&apos;Entreprise / Chiffre d&apos;Affaires)",
+      "VE/EBE (Valeur d&apos;Entreprise / Excédent Brut d&apos;Exploitation)",
+      "VE/RE (Valeur d&apos;Entreprise / Résultat d&apos;Exploitation)",
       "PER (Price Earnings Ratio)"
     ],
     correct: 2,
-    explanation: "Le multiple VE/RE compare la valeur d'entreprise au résultat d'exploitation. Il permet d'évaluer combien les investisseurs sont prêts à payer pour chaque euro de résultat opérationnel."
+    explanation: "Le multiple VE/RE compare la valeur d&apos;entreprise au résultat d&apos;exploitation. Il permet d&apos;évaluer combien les investisseurs sont prêts à payer pour chaque euro de résultat opérationnel."
   },
   {
     id: 4,
@@ -56,15 +56,15 @@ const questions: Question[] = [
     options: [
       "Le taux sans risque du marché",
       "La prime de risque du marché",
-      "Le risque systématique de l'entreprise par rapport au marché",
-      "Le coût de la dette de l'entreprise"
+      "Le risque systématique de l&apos;entreprise par rapport au marché",
+      "Le coût de la dette de l&apos;entreprise"
     ],
     correct: 2,
     explanation: "Le bêta mesure la sensibilité du titre par rapport aux variations du marché. Un bêta > 1 indique un titre plus volatil que le marché, un bêta < 1 indique un titre moins volatil."
   },
   {
     id: 5,
-    question: "Quelle est la condition pour qu'un projet soit rentable selon la VAN ?",
+    question: "Quelle est la condition pour qu&apos;un projet soit rentable selon la VAN ?",
     options: [
       "VAN = 0",
       "VAN > 0",
@@ -72,7 +72,7 @@ const questions: Question[] = [
       "VAN = TIR"
     ],
     correct: 1,
-    explanation: "Un projet est rentable si sa VAN est positive (VAN > 0), car cela signifie qu'il crée de la valeur en générant plus que le coût du capital investi."
+    explanation: "Un projet est rentable si sa VAN est positive (VAN > 0), car cela signifie qu&apos;il crée de la valeur en générant plus que le coût du capital investi."
   },
   {
     id: 6,
@@ -84,7 +84,7 @@ const questions: Question[] = [
       "Valeur post-money = Valeur pré-money × % conservé"
     ],
     correct: 1,
-    explanation: "La valeur post-money correspond à la valeur de l'entreprise après l'investissement, soit la valeur pré-money augmentée du montant investi."
+    explanation: "La valeur post-money correspond à la valeur de l&apos;entreprise après l&apos;investissement, soit la valeur pré-money augmentée du montant investi."
   },
   {
     id: 7,
@@ -102,13 +102,13 @@ const questions: Question[] = [
     id: 8,
     question: "Quelle est la principale différence entre VAN et VAN Globale ?",
     options: [
-      "La VAN Globale ne prend pas en compte l'investissement initial",
-      "La VAN Globale utilise un taux de réinvestissement différent du taux d'actualisation",
-      "La VAN Globale ne s'applique qu'aux start-ups",
+      "La VAN Globale ne prend pas en compte l&apos;investissement initial",
+      "La VAN Globale utilise un taux de réinvestissement différent du taux d&apos;actualisation",
+      "La VAN Globale ne s&apos;applique qu&apos;aux start-ups",
       "La VAN Globale utilise des flux nominaux au lieu de flux réels"
     ],
     correct: 1,
-    explanation: "La VAN Globale prend explicitement en compte le taux de réinvestissement des cash flows intermédiaires, qui peut être différent du taux d'actualisation utilisé pour la VAN classique."
+    explanation: "La VAN Globale prend explicitement en compte le taux de réinvestissement des cash flows intermédiaires, qui peut être différent du taux d&apos;actualisation utilisé pour la VAN classique."
   }
 ];
 
@@ -166,7 +166,7 @@ export default function QuizPage() {
 
   const getScoreMessage = () => {
     const percentage = (score / questions.length) * 100;
-    if (percentage >= 80) return 'Excellent ! Vous maîtrisez parfaitement les concepts d\'évaluation.';
+    if (percentage >= 80) return 'Excellent ! Vous maîtrisez parfaitement les concepts d&apos;évaluation.';
     if (percentage >= 60) return 'Bien ! Quelques révisions vous permettront de parfaire vos connaissances.';
     return 'Il est recommandé de revoir le cours avant de passer aux questions DSCG.';
   };
@@ -270,10 +270,10 @@ export default function QuizPage() {
             <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-600 rounded-full flex items-center justify-center">
               <Target className="w-6 h-6 text-white" />
             </div>
-            <h1 className="text-3xl md:text-4xl font-bold text-gray-900">Quiz d'Évaluation</h1>
+            <h1 className="text-3xl md:text-4xl font-bold text-gray-900">Quiz d&apos;Évaluation</h1>
           </div>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Testez vos connaissances sur les méthodes d'évaluation financière.
+            Testez vos connaissances sur les méthodes d&apos;évaluation financière.
           </p>
         </motion.div>
 

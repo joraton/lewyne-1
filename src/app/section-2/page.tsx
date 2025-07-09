@@ -59,7 +59,7 @@ export default function Section2Page() {
             <div className="prose prose-lg max-w-none">
               <p className="text-gray-700 leading-relaxed mb-6">
                 La méthode DCF (Discounted Cash Flow) consiste à actualiser les flux de trésorerie disponibles futurs 
-                que l'entreprise est capable de générer. Cette méthode intrinsèque reflète la capacité de création de valeur de l'entreprise.
+                que l&apos;entreprise est capable de générer. Cette méthode intrinsèque reflète la capacité de création de valeur de l&apos;entreprise.
               </p>
               
               <div className="bg-purple-50 border border-purple-200 rounded-lg p-6 mb-6">
@@ -99,8 +99,8 @@ export default function Section2Page() {
             
             <div className="prose prose-lg max-w-none">
               <p className="text-gray-700 leading-relaxed mb-6">
-                Le Free Cash Flow représente les liquidités générées par l'activité opérationnelle, 
-                disponibles pour rémunérer l'ensemble des pourvoyeurs de capitaux (actionnaires et créanciers).
+                Le Free Cash Flow représente les liquidités générées par l&apos;activité opérationnelle, 
+                disponibles pour rémunérer l&apos;ensemble des pourvoyeurs de capitaux (actionnaires et créanciers).
               </p>
               
               <div className="bg-green-50 border border-green-200 rounded-lg p-6 mb-6">
@@ -108,7 +108,7 @@ export default function Section2Page() {
                 <div className="bg-white p-6 rounded border">
                   <div className="space-y-3 text-sm">
                     <div className="flex justify-between border-b pb-2">
-                      <span>Résultat d'Exploitation (RE)</span>
+                      <span>Résultat d&apos;Exploitation (RE)</span>
                       <span className="font-medium">+ XXX</span>
                     </div>
                     <div className="flex justify-between border-b pb-2">
@@ -139,9 +139,9 @@ export default function Section2Page() {
                 <div className="flex items-start gap-3">
                   <AlertCircle className="w-6 h-6 text-yellow-500 mt-1 flex-shrink-0" />
                   <div>
-                    <h4 className="text-lg font-semibold text-yellow-900 mb-2">Points d'attention</h4>
+                    <h4 className="text-lg font-semibold text-yellow-900 mb-2">Points d&apos;attention</h4>
                     <ul className="text-yellow-800 space-y-1">
-                      <li>• L'impôt est calculé sur le RE avant charges financières</li>
+                      <li>• L&apos;impôt est calculé sur le RE avant charges financières</li>
                       <li>• Les amortissements sont retraités car ils ne représentent pas une sortie de cash</li>
                       <li>• Une augmentation du BFR diminue le FCF (besoin de financement)</li>
                     </ul>
@@ -157,7 +157,7 @@ export default function Section2Page() {
             
             <div className="prose prose-lg max-w-none">
               <p className="text-gray-700 leading-relaxed mb-6">
-                Le CMPC représente le taux de rentabilité exigé par l'ensemble des pourvoyeurs de capitaux 
+                Le CMPC représente le taux de rentabilité exigé par l&apos;ensemble des pourvoyeurs de capitaux 
                 (actionnaires et créanciers), pondéré par leur poids respectif dans le financement.
               </p>
               
@@ -168,7 +168,7 @@ export default function Section2Page() {
                   <br />
                   <div className="text-sm text-gray-600 mt-3 space-y-1">
                     <div>Ke = Coût des fonds propres | Kd = Coût de la dette</div>
-                    <div>CP = Capitaux propres | D = Dette | IS = Taux d'impôt</div>
+                    <div>CP = Capitaux propres | D = Dette | IS = Taux d&apos;impôt</div>
                   </div>
                 </div>
               </div>
@@ -182,19 +182,19 @@ export default function Section2Page() {
                   </div>
                   <ul className="text-blue-800 text-sm mt-3 space-y-1">
                     <li>• Rf = Taux sans risque</li>
-                    <li>• β = Bêta de l'action</li>
+                    <li>• β = Bêta de l&apos;action</li>
                     <li>• Rm = Rentabilité du marché</li>
                   </ul>
                 </div>
                 
                 <div className="bg-green-50 p-6 rounded-xl border border-green-200">
                   <h4 className="text-lg font-semibold text-green-900 mb-3">Coût de la Dette (Kd)</h4>
-                  <p className="text-green-800 text-sm mb-3">Taux d'intérêt moyen de la dette :</p>
+                  <p className="text-green-800 text-sm mb-3">Taux d&apos;intérêt moyen de la dette :</p>
                   <div className="bg-white p-3 rounded border text-center">
                     <strong>Kd = Charges financières / Dette</strong>
                   </div>
                   <div className="text-green-800 text-sm mt-3">
-                    <strong>Économie d'impôt :</strong> La dette bénéficie d'un avantage fiscal 
+                    <strong>Économie d&apos;impôt :</strong> La dette bénéficie d&apos;un avantage fiscal 
                     car les intérêts sont déductibles.
                   </div>
                 </div>
@@ -208,7 +208,7 @@ export default function Section2Page() {
             
             <div className="prose prose-lg max-w-none">
               <p className="text-gray-700 leading-relaxed mb-6">
-                La valeur terminale représente la valeur de l'entreprise au-delà de la période de prévision explicite. 
+                La valeur terminale représente la valeur de l&apos;entreprise au-delà de la période de prévision explicite. 
                 Elle constitue souvent la majeure partie de la valorisation (60-80%).
               </p>
               
@@ -229,7 +229,7 @@ export default function Section2Page() {
                     <strong>VT = Multiple × Agrégat(n)</strong>
                   </div>
                   <p className="text-orange-800 text-sm">
-                    Application d'un multiple de sortie aux données de la dernière année
+                    Application d&apos;un multiple de sortie aux données de la dernière année
                   </p>
                 </div>
               </div>
@@ -241,7 +241,7 @@ export default function Section2Page() {
                 </p>
                 <ul className="text-gray-700 space-y-1">
                   <li><strong>F</strong>CF (Free Cash Flow) → Calcul des flux prévisionnels</li>
-                  <li><strong>C</strong>MPC → Détermination du taux d'actualisation</li>
+                  <li><strong>C</strong>MPC → Détermination du taux d&apos;actualisation</li>
                   <li><strong>V</strong>T (Valeur Terminale) → Gordon & Shapiro ou multiples</li>
                   <li><strong>T</strong>otal → Somme des flux actualisés + VT actualisée</li>
                 </ul>
@@ -258,10 +258,10 @@ export default function Section2Page() {
                 <div className="flex items-start gap-3">
                   <Lightbulb className="w-6 h-6 text-blue-500 mt-1 flex-shrink-0" />
                   <div>
-                    <h4 className="text-lg font-semibold text-blue-900 mb-2">Données de l'exercice</h4>
+                    <h4 className="text-lg font-semibold text-blue-900 mb-2">Données de l&apos;exercice</h4>
                     <ul className="text-blue-800 space-y-1">
-                      <li>• Résultat d'exploitation : 2 400 k€</li>
-                      <li>• Taux d'impôt : 33,33%</li>
+                      <li>• Résultat d&apos;exploitation : 2 400 k€</li>
+                  <li>• Taux d&apos;impôt : 33,33%</li>
                       <li>• Amortissements : 800 k€</li>
                       <li>• Investissements : 1 000 k€</li>
                       <li>• Variation BFR : +200 k€</li>
@@ -275,7 +275,7 @@ export default function Section2Page() {
                 <h4 className="text-lg font-semibold text-gray-900 mb-4">Calcul du FCF :</h4>
                 <div className="space-y-2 text-sm">
                   <div className="flex justify-between border-b pb-2">
-                    <span>Résultat d'exploitation</span>
+                    <span>Résultat d&apos;exploitation</span>
                     <span className="font-medium">2 400 k€</span>
                   </div>
                   <div className="flex justify-between border-b pb-2">

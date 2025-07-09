@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { ArrowLeft, ArrowRight, TrendingUp, BarChart3, Calculator, Target, AlertCircle, Lightbulb, PieChart, Zap } from 'lucide-react';
+import { ArrowLeft, ArrowRight, BarChart3, Calculator, Target, AlertCircle, Lightbulb, PieChart } from 'lucide-react';
 
 export default function VanProbabiliseePage() {
   return (
@@ -35,10 +35,10 @@ export default function VanProbabiliseePage() {
             Section VII
           </div>
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            VII - Gestion du Risque dans l'Évaluation
+            VII - Gestion du Risque dans l&apos;Évaluation
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            VAN Probabilisée et intégration de l'incertitude
+            VAN Probabilisée et intégration de l&apos;incertitude
           </p>
         </motion.div>
 
@@ -63,7 +63,7 @@ export default function VanProbabiliseePage() {
                 <div>
                   <h3 className="font-semibold text-indigo-800 mb-2">Objectif</h3>
                   <p className="text-indigo-700">
-                    La VAN probabilisée permet d'intégrer l'incertitude sur les flux de trésorerie futurs en utilisant des distributions de probabilité.
+                    La VAN probabilisée permet d&apos;intégrer l&apos;incertitude sur les flux de trésorerie futurs en utilisant des distributions de probabilité.
                   </p>
                 </div>
               </div>
@@ -82,7 +82,7 @@ export default function VanProbabiliseePage() {
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 text-sm font-semibold mt-0.5">3</div>
-                  <p className="text-gray-700">Calculer l'espérance et la variance de la VAN</p>
+                  <p className="text-gray-700">Calculer l&apos;espérance et la variance de la VAN</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 text-sm font-semibold mt-0.5">4</div>
@@ -115,7 +115,7 @@ export default function VanProbabiliseePage() {
                 <div className="text-sm text-gray-600 space-y-1">
                   <p>• E(CFₜ) = Espérance du cash-flow de la période t</p>
                   <p>• I₀ = Investissement initial (certain)</p>
-                  <p>• i = Taux d'actualisation</p>
+                  <p>• i = Taux d&apos;actualisation</p>
                 </div>
               </div>
             </div>
@@ -136,7 +136,7 @@ export default function VanProbabiliseePage() {
               <div className="bg-white p-4 rounded border text-center">
                 <p className="font-mono text-lg mb-2">σ(VAN) = √Var(VAN)</p>
                 <div className="text-sm text-gray-600">
-                  <p>L'écart-type mesure le risque du projet</p>
+                  <p>L&apos;écart-type mesure le risque du projet</p>
                 </div>
               </div>
             </div>
@@ -163,7 +163,7 @@ export default function VanProbabiliseePage() {
               <div className="text-green-700 space-y-2">
                 <p><strong>Investissement initial :</strong> 100 000€ pour chaque projet</p>
                 <p><strong>Durée :</strong> 3 ans</p>
-                <p><strong>Taux d'actualisation :</strong> 10%</p>
+                <p><strong>Taux d&apos;actualisation :</strong> 10%</p>
               </div>
             </div>
 
@@ -350,7 +350,7 @@ export default function VanProbabiliseePage() {
               <div className="bg-white p-4 rounded border">
                 <p className="text-sm mb-2">Pour le Projet A : E(VAN) = 33 029€, σ(VAN) = 8 944€</p>
                 <p className="font-mono text-sm mb-2">P(VAN &gt; 0) = Φ(33 029 / 8 944) = Φ(3,69) ≈ 99,99%</p>
-                <p className="text-sm text-green-700 font-semibold">Le projet A a une probabilité très élevée d'être rentable</p>
+                <p className="text-sm text-green-700 font-semibold">Le projet A a une probabilité très élevée d&apos;être rentable</p>
               </div>
             </div>
           </div>
@@ -372,11 +372,11 @@ export default function VanProbabiliseePage() {
             <div className="space-y-3">
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-indigo-500 rounded-full mt-2 flex-shrink-0"></div>
-                <p className="text-gray-700">La VAN probabilisée intègre explicitement le risque dans l'évaluation</p>
+                <p className="text-gray-700">La VAN probabilisée intègre explicitement le risque dans l&apos;évaluation</p>
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-indigo-500 rounded-full mt-2 flex-shrink-0"></div>
-                <p className="text-gray-700">L'espérance de la VAN donne la valeur moyenne attendue</p>
+                <p className="text-gray-700">L&apos;espérance de la VAN donne la valeur moyenne attendue</p>
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-indigo-500 rounded-full mt-2 flex-shrink-0"></div>

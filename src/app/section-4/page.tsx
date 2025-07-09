@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { ArrowLeft, ArrowRight, Calculator, TrendingUp, Target, AlertCircle, Lightbulb, DollarSign, BarChart3, PieChart } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Calculator, AlertCircle, Lightbulb, BarChart3 } from 'lucide-react';
 
 export default function Section4Page() {
   return (
@@ -35,7 +35,7 @@ export default function Section4Page() {
             Section V
           </div>
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            V - Techniques d'Évaluation Avancées
+            V - Techniques d&apos;Évaluation Avancées
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             VAN Probabilisée et méthodes sophistiquées
@@ -53,7 +53,7 @@ export default function Section4Page() {
             <div className="w-10 h-10 bg-orange-100 rounded-lg flex items-center justify-center">
               <Lightbulb className="w-5 h-5 text-orange-600" />
             </div>
-            <h2 className="text-2xl font-bold text-gray-900">Introduction à l'Évaluation sous Incertitude</h2>
+            <h2 className="text-2xl font-bold text-gray-900">Introduction à l&apos;Évaluation sous Incertitude</h2>
           </div>
 
           <div className="space-y-6">
@@ -70,7 +70,7 @@ export default function Section4Page() {
             </div>
 
             <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="font-semibold text-gray-900 mb-4">Nécessité d'Intégrer le Risque</h3>
+              <h3 className="font-semibold text-gray-900 mb-4">Nécessité d&apos;Intégrer le Risque</h3>
               <div className="space-y-3">
                 <div className="flex items-start gap-3">
                   <div className="w-6 h-6 bg-orange-100 rounded-full flex items-center justify-center text-orange-600 text-sm font-semibold mt-0.5">1</div>
@@ -110,7 +110,7 @@ export default function Section4Page() {
                 <div>
                   <h3 className="font-semibold text-indigo-800 mb-2">Principe Fondamental</h3>
                   <p className="text-indigo-700">
-                    La VAN probabilisée traite les cash-flows comme des variables aléatoires et calcule l'espérance mathématique de la VAN.
+                    La VAN probabilisée traite les cash-flows comme des variables aléatoires et calcule l&apos;espérance mathématique de la VAN.
                   </p>
                 </div>
               </div>
@@ -121,7 +121,7 @@ export default function Section4Page() {
               <div className="space-y-4">
                 <div className="bg-white p-4 rounded border">
                   <h4 className="font-semibold text-gray-800 mb-3">Principe</h4>
-                  <p className="text-gray-600 mb-3">Définir plusieurs scénarios économiques avec leurs probabilités d'occurrence :</p>
+                  <p className="text-gray-600 mb-3">Définir plusieurs scénarios économiques avec leurs probabilités d&apos;occurrence :</p>
                   <div className="bg-blue-50 p-3 rounded">
                     <p className="font-mono text-center text-lg mb-2">E(VAN) = Σ[P(i) × VAN(i)]</p>
                     <div className="text-sm text-gray-600">
@@ -155,7 +155,7 @@ export default function Section4Page() {
                   <div className="space-y-3">
                     <div className="flex items-start gap-3">
                       <div className="w-6 h-6 bg-indigo-100 rounded-full flex items-center justify-center text-indigo-600 text-sm font-semibold mt-0.5">1</div>
-                      <p className="text-gray-700">Définir les distributions de probabilité des variables d'entrée</p>
+                      <p className="text-gray-700">Définir les distributions de probabilité des variables d&apos;entrée</p>
                     </div>
                     <div className="flex items-start gap-3">
                       <div className="w-6 h-6 bg-indigo-100 rounded-full flex items-center justify-center text-indigo-600 text-sm font-semibold mt-0.5">2</div>
@@ -197,7 +197,7 @@ export default function Section4Page() {
                 <div>
                   <h3 className="font-semibold text-red-800 mb-2">Mesures de Risque</h3>
                   <p className="text-red-700">
-                    L'analyse probabiliste permet de quantifier le risque associé à un investissement.
+                    L&apos;analyse probabiliste permet de quantifier le risque associé à un investissement.
                   </p>
                 </div>
               </div>
@@ -210,7 +210,7 @@ export default function Section4Page() {
                   <div className="bg-white p-3 rounded border">
                     <p className="font-mono text-center mb-2">σ(VAN) = √[Σ P(i) × (VAN(i) - E(VAN))²]</p>
                   </div>
-                  <p className="text-gray-700 text-sm">Plus l'écart-type est élevé, plus le projet est risqué.</p>
+                  <p className="text-gray-700">Plus l&apos;écart-type est élevé, plus le projet est risqué.</p>
                 </div>
               </div>
 
@@ -253,15 +253,15 @@ export default function Section4Page() {
 
           <div className="space-y-6">
             <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="font-semibold text-gray-900 mb-4">Domaines d'Application</h3>
+              <h3 className="font-semibold text-gray-900 mb-4">Domaines d&apos;Application</h3>
               <div className="space-y-3">
                 <div className="flex items-start gap-3">
                   <div className="w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center text-purple-600 text-sm font-semibold mt-0.5">1</div>
-                  <p className="text-gray-700">Projets d'investissement industriels avec incertitudes sur les volumes</p>
+                  <p className="text-gray-700">Projets d&apos;investissement industriels avec incertitudes sur les volumes</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center text-purple-600 text-sm font-semibold mt-0.5">2</div>
-                  <p className="text-gray-700">Évaluation d'entreprises en phase de développement</p>
+                  <p className="text-gray-700">Évaluation d&apos;entreprises en phase de développement</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center text-purple-600 text-sm font-semibold mt-0.5">3</div>
@@ -298,7 +298,7 @@ export default function Section4Page() {
             <div className="space-y-3">
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-orange-500 rounded-full mt-2 flex-shrink-0"></div>
-                <p className="text-gray-700">La VAN probabilisée intègre l'incertitude dans l'évaluation</p>
+                <p className="text-gray-700">La VAN probabilisée intègre l&apos;incertitude dans l&apos;évaluation</p>
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-orange-500 rounded-full mt-2 flex-shrink-0"></div>

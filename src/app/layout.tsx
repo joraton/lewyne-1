@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Cours d'Évaluation - Lewyne",
-  description: "Fiche de cours complète sur l'évaluation financière : méthodes analogiques, DCF, CMPC et valorisation d'entreprise",
+  description: "Fiche de cours complète sur l&apos;évaluation financière : méthodes analogiques, DCF, CMPC et valorisation d&apos;entreprise",
 };
 
 export default function RootLayout({

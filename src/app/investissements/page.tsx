@@ -63,7 +63,7 @@ export default function InvestissementsPage() {
                 <div>
                   <h3 className="font-semibold text-blue-800 mb-2">Principe de la VAN</h3>
                   <p className="text-blue-700">
-                    La VAN mesure la création de valeur d'un investissement en actualisant les flux de trésorerie futurs.
+                    La VAN mesure la création de valeur d&apos;un investissement en actualisant les flux de trésorerie futurs.
                   </p>
                 </div>
               </div>
@@ -76,7 +76,7 @@ export default function InvestissementsPage() {
                 <div className="text-sm text-gray-600 space-y-1">
                   <p>• I₀ = Investissement initial</p>
                   <p>• CFₜ = Cash-flow de la période t</p>
-                  <p>• i = Taux d'actualisation</p>
+                  <p>• i = Taux d&apos;actualisation</p>
                   <p>• t = Période</p>
                 </div>
               </div>
@@ -86,7 +86,7 @@ export default function InvestissementsPage() {
               <h4 className="font-semibold text-green-800 mb-2">✅ Règle de décision</h4>
               <div className="text-green-700 space-y-2">
                 <p>• <strong>VAN &gt; 0 :</strong> Projet créateur de valeur → Accepter</p>
-                <p>• <strong>VAN = 0 :</strong> Projet à l'équilibre → Indifférent</p>
+                <p>• <strong>VAN = 0 :</strong> Projet à l&apos;équilibre → Indifférent</p>
                 <p>• <strong>VAN &lt; 0 :</strong> Projet destructeur de valeur → Rejeter</p>
                 <p className="mt-3"><strong>Entre plusieurs projets :</strong> Choisir celui avec la VAN la plus élevée</p>
               </div>
@@ -113,16 +113,16 @@ export default function InvestissementsPage() {
               <h3 className="font-semibold text-gray-900 mb-4">Définition</h3>
               <div className="bg-white p-4 rounded border text-center">
                 <p className="font-mono text-lg mb-2">TIR = i tel que VAN = 0</p>
-                <p className="text-gray-600">Le TIR est le taux d'actualisation qui annule la VAN</p>
+                <p className="text-gray-600">Le TIR est le taux d&apos;actualisation qui annule la VAN</p>
               </div>
             </div>
 
             <div className="bg-green-50 border border-green-200 p-4 rounded-lg">
               <h4 className="font-semibold text-green-800 mb-2">📊 Règle de décision</h4>
               <div className="text-green-700 space-y-2">
-                <p>• <strong>TIR &gt; Taux d'actualisation :</strong> Projet rentable → Accepter</p>
-                <p>• <strong>TIR = Taux d'actualisation :</strong> Projet à l'équilibre → Indifférent</p>
-                <p>• <strong>TIR &lt; Taux d'actualisation :</strong> Projet non rentable → Rejeter</p>
+                <p>• <strong>TIR &gt; Taux d&apos;actualisation :</strong> Projet rentable → Accepter</p>
+                <p>• <strong>TIR = Taux d&apos;actualisation :</strong> Projet à l&apos;équilibre → Indifférent</p>
+                <p>• <strong>TIR &lt; Taux d&apos;actualisation :</strong> Projet non rentable → Rejeter</p>
               </div>
             </div>
 
@@ -196,7 +196,7 @@ export default function InvestissementsPage() {
                 <p>Une entreprise possède une machine achetée 8 000€. Deux options :</p>
                 <p><strong>Projet 1 :</strong> Conserver 4 ans</p>
                 <p><strong>Projet 2 :</strong> Renouveler au bout de 2 ans</p>
-                <p><strong>Taux d'actualisation :</strong> 10%</p>
+                <p><strong>Taux d&apos;actualisation :</strong> 10%</p>
               </div>
             </div>
 
@@ -298,7 +298,7 @@ export default function InvestissementsPage() {
                 <p><strong>Nouvelle machine :</strong> 200k€, amortissable sur 5 ans</p>
                 <p><strong>Revente ancienne :</strong> 100k€</p>
                 <p><strong>Amélioration EBE :</strong> 80k€, 90k€, 105k€, 110k€, 110k€</p>
-                <p><strong>IS :</strong> 30% | <strong>Taux d'actualisation :</strong> 10%</p>
+                <p><strong>IS :</strong> 30% | <strong>Taux d&apos;actualisation :</strong> 10%</p>
               </div>
             </div>
 
@@ -330,13 +330,13 @@ export default function InvestissementsPage() {
             </div>
 
             <div className="bg-blue-50 p-4 rounded-lg">
-              <h4 className="font-semibold text-blue-800 mb-3">💰 Calcul de l'investissement net</h4>
+              <h4 className="font-semibold text-blue-800 mb-3">💰 Calcul de l&apos;investissement net</h4>
               <div className="text-blue-700 space-y-2">
                 <p><strong>Nouvelle machine :</strong> -200 000€</p>
                 <p><strong>Revente ancienne :</strong> +100 000€</p>
                 <p><strong>VNC ancienne :</strong> 180 000 - 30 000 = 150 000€</p>
                 <p><strong>Moins-value :</strong> 100 000 - 150 000 = -50 000€</p>
-                <p><strong>Économie d'IS :</strong> 50 000 × 30% = +15 000€</p>
+                <p><strong>Économie d&apos;IS :</strong> 50 000 × 30% = +15 000€</p>
                 <p className="font-semibold"><strong>Investissement net :</strong> -200 000 + 100 000 + 15 000 = -85 000€</p>
               </div>
             </div>
@@ -372,7 +372,7 @@ export default function InvestissementsPage() {
             <div className="bg-yellow-50 border border-yellow-200 p-4 rounded-lg">
               <h4 className="font-semibold text-yellow-800 mb-2">🎯 Définition</h4>
               <p className="text-yellow-700">
-                Le seuil de rentabilité correspond au nombre d'unités qu'il faut vendre pour que la VAN soit égale à 0.
+                Le seuil de rentabilité correspond au nombre d&apos;unités qu&apos;il faut vendre pour que la VAN soit égale à 0.
               </p>
             </div>
 
@@ -380,9 +380,9 @@ export default function InvestissementsPage() {
               <h3 className="font-semibold text-gray-900 mb-4">Méthode de calcul</h3>
               <div className="bg-white p-4 rounded border">
                 <ol className="list-decimal list-inside space-y-2 text-gray-700">
-                  <li>Exprimer les cash-flows en fonction du nombre d'unités vendues (x)</li>
+                  <li>Exprimer les cash-flows en fonction du nombre d&apos;unités vendues (x)</li>
                   <li>Calculer la VAN en fonction de x</li>
-                  <li>Résoudre l'équation VAN(x) = 0</li>
+                  <li>Résoudre l&apos;équation VAN(x) = 0</li>
                 </ol>
               </div>
             </div>
@@ -405,15 +405,15 @@ export default function InvestissementsPage() {
             <div className="space-y-3">
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
-                <p className="text-gray-700">La VAN est le critère de référence pour l'évaluation des investissements</p>
+                <p className="text-gray-700">La VAN est le critère de référence pour l&apos;évaluation des investissements</p>
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
-                <p className="text-gray-700">Le TIR doit être comparé au coût du capital de l'entreprise</p>
+                <p className="text-gray-700">Le TIR doit être comparé au coût du capital de l&apos;entreprise</p>
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
-                <p className="text-gray-700">L'indice de profitabilité facilite la comparaison de projets de tailles différentes</p>
+                <p className="text-gray-700">L&apos;indice de profitabilité facilite la comparaison de projets de tailles différentes</p>
               </div>
             </div>
             <div className="space-y-3">

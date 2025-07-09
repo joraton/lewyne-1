@@ -20,18 +20,18 @@ const exercises: Exercise[] = [
   {
     id: 1,
     title: "Valorisation par DCF (DSCG 2017)",
-    context: `La société ALPHA est une PME spécialisée dans la conception et la fabrication de pièces mécaniques pour l'industrie automobile. Vous êtes chargé(e) d'évaluer cette entreprise en utilisant la méthode des flux de trésorerie actualisés (DCF).
+    context: `La société ALPHA est une PME spécialisée dans la conception et la fabrication de pièces mécaniques pour l&apos;industrie automobile. Vous êtes chargé(e) d&apos;évaluer cette entreprise en utilisant la méthode des flux de trésorerie actualisés (DCF).
 
 Données :
-- Chiffre d'affaires 2016 : 5 200 K€
+- Chiffre d&apos;affaires 2016 : 5 200 K€
 - Taux de croissance annuel du CA : 3%
 - Taux de marge opérationnelle : 12%
-- Taux d'imposition : 33,33%
+- Taux d&apos;imposition : 33,33%
 - BFR : 15% du CA
 - Investissements annuels : 300 K€
 - Amortissements annuels : 250 K€
 - CMPC : 10%
-- Taux de croissance à l'infini : 1,5%
+- Taux de croissance à l&apos;infini : 1,5%
 - Dette financière nette : 1 200 K€`,
     questions: [
       {
@@ -67,12 +67,12 @@ La valeur terminale est donc de 4 847 K€.`
       },
       {
         id: 3,
-        question: "Calculez la valeur d'entreprise (VE) et la valeur des capitaux propres.",
-        solution: `**Calcul de la valeur d'entreprise :**
+        question: "Calculez la valeur d&apos;entreprise (VE) et la valeur des capitaux propres.",
+        solution: `**Calcul de la valeur d&apos;entreprise :**
 
 VE = Σ FCF actualisés + VT actualisée
 
-| Année | FCF | Facteur d'actualisation (1,10^n) | FCF actualisé |
+| Année | FCF | Facteur d&apos;actualisation (1,10^n) | FCF actualisé |
 |-------|-----|----------------------------------|---------------|
 | 2017 | 355 | 1,100 | 323 |
 | 2018 | 367 | 1,210 | 303 |
@@ -94,8 +94,8 @@ Valeur des capitaux propres = 4 440 - 1 200 = 3 240 K€`
   },
   {
     id: 2,
-    title: "Choix d'investissement et VAN (DSCG 2016)",
-    context: `La société BETA envisage de lancer un nouveau produit. Deux scénarios d'investissement sont possibles :
+    title: "Choix d&apos;investissement et VAN (DSCG 2016)",
+    context: `La société BETA envisage de lancer un nouveau produit. Deux scénarios d&apos;investissement sont possibles :
 
 **Projet A :**
 - Investissement initial : 800 K€
@@ -115,7 +115,7 @@ Valeur des capitaux propres = 4 440 - 1 200 = 3 240 K€`
   * Année 3 : 400 K€
   * Année 4 : 300 K€
 
-- Taux d'actualisation : 8%
+- Taux d&apos;actualisation : 8%
 - Taux de réinvestissement des flux intermédiaires : 5%`,
     questions: [
       {
@@ -148,12 +148,12 @@ VANG(B) = -1 200 + [400×(1,05)³ + 450×(1,05)² + 400×(1,05) + 300] / (1,08)�
 VANG(B) = -1 200 + [463,1 + 496,1 + 420 + 300] / 1,36
 VANG(B) = -1 200 + 1 679,2 / 1,36 = -1 200 + 1 234,7 = 34,7 K€
 
-Selon le critère de la VANG, le projet A reste préférable (73,3 K€ > 34,7 K€), mais l'écart s'est réduit car le taux de réinvestissement (5%) est inférieur au taux d'actualisation (8%).`
+Selon le critère de la VANG, le projet A reste préférable (73,3 K€ > 34,7 K€), mais l&apos;écart s&apos;est réduit car le taux de réinvestissement (5%) est inférieur au taux d&apos;actualisation (8%).`
       },
       {
         id: 3,
-        question: "Calculez l'Indice de Profitabilité (IP) pour chaque projet et commentez.",
-        solution: `**Calcul de l'Indice de Profitabilité :**
+        question: "Calculez l&apos;Indice de Profitabilité (IP) pour chaque projet et commentez.",
+        solution: `**Calcul de l&apos;Indice de Profitabilité :**
 
 **Projet A :**
 IP(A) = (Somme des flux actualisés) / Investissement initial
@@ -162,19 +162,19 @@ IP(A) = (231,5 + 257,2 + 277,8 + 147,1) / 800 = 913,6 / 800 = 1,142
 **Projet B :**
 IP(B) = (370,4 + 385,8 + 317,5 + 220,7) / 1 200 = 1 294,4 / 1 200 = 1,079
 
-L'indice de profitabilité du projet A (1,142) est supérieur à celui du projet B (1,079), ce qui confirme que le projet A est plus rentable par euro investi. Cela est particulièrement pertinent dans un contexte de ressources financières limitées.`
+L&apos;indice de profitabilité du projet A (1,142) est supérieur à celui du projet B (1,079), ce qui confirme que le projet A est plus rentable par euro investi. Cela est particulièrement pertinent dans un contexte de ressources financières limitées.`
       }
     ]
   },
   {
     id: 3,
     title: "Valorisation par multiples (DSCG 2018)",
-    context: `La société GAMMA, spécialisée dans la distribution de produits électroniques, souhaite acquérir la société DELTA. Vous êtes chargé(e) d'évaluer DELTA en utilisant la méthode des multiples boursiers.
+    context: `La société GAMMA, spécialisée dans la distribution de produits électroniques, souhaite acquérir la société DELTA. Vous êtes chargé(e) d&apos;évaluer DELTA en utilisant la méthode des multiples boursiers.
 
 Données de DELTA :
-- Chiffre d'affaires : 12 M€
+- Chiffre d&apos;affaires : 12 M€
 - EBE (EBITDA) : 2,4 M€
-- Résultat d'exploitation (EBIT) : 1,8 M€
+- Résultat d&apos;exploitation (EBIT) : 1,8 M€
 - Résultat net : 1,2 M€
 - Dette financière nette : 3,5 M€
 
@@ -186,8 +186,8 @@ Multiples moyens du secteur :
     questions: [
       {
         id: 1,
-        question: "Calculez la valeur d'entreprise (VE) de DELTA selon les différents multiples.",
-        solution: `**Calcul de la valeur d'entreprise selon les multiples :**
+        question: "Calculez la valeur d&apos;entreprise (VE) de DELTA selon les différents multiples.",
+        solution: `**Calcul de la valeur d&apos;entreprise selon les multiples :**
 
 **Multiple VE/CA :**
 VE = 1,2 × 12 M€ = 14,4 M€
@@ -198,14 +198,14 @@ VE = 6,5 × 2,4 M€ = 15,6 M€
 **Multiple VE/RE :**
 VE = 8,5 × 1,8 M€ = 15,3 M€
 
-Les valeurs d'entreprise obtenues sont relativement cohérentes, variant de 14,4 M€ à 15,6 M€.`
+Les valeurs d&apos;entreprise obtenues sont relativement cohérentes, variant de 14,4 M€ à 15,6 M€.`
       },
       {
         id: 2,
         question: "Calculez la valeur des capitaux propres de DELTA selon chaque approche.",
         solution: `**Calcul de la valeur des capitaux propres :**
 
-Valeur des capitaux propres = Valeur d'entreprise - Dette financière nette
+Valeur des capitaux propres = Valeur d&apos;entreprise - Dette financière nette
 
 **Selon VE/CA :**
 Valeur des capitaux propres = 14,4 - 3,5 = 10,9 M€
@@ -230,13 +230,13 @@ En excluant les valeurs extrêmes, nous pouvons proposer une fourchette de valor
 
 **Justification :**
 
-1. Les multiples VE/EBE et VE/RE sont généralement plus pertinents que le VE/CA car ils prennent en compte la rentabilité de l'entreprise.
+1. Les multiples VE/EBE et VE/RE sont généralement plus pertinents que le VE/CA car ils prennent en compte la rentabilité de l&apos;entreprise.
 
-2. La valorisation par le PER (14,4 M€) semble élevée par rapport aux autres méthodes, ce qui pourrait s'expliquer par des éléments exceptionnels dans le résultat net ou des structures financières différentes entre DELTA et les sociétés comparables.
+2. La valorisation par le PER (14,4 M€) semble élevée par rapport aux autres méthodes, ce qui pourrait s&apos;expliquer par des éléments exceptionnels dans le résultat net ou des structures financières différentes entre DELTA et les sociétés comparables.
 
-3. Pour une acquisition, il est recommandé de privilégier une approche prudente, d'où l'exclusion de la valeur haute (14,4 M€).
+3. Pour une acquisition, il est recommandé de privilégier une approche prudente, d&apos;où l&apos;exclusion de la valeur haute (14,4 M€).
 
-4. La fourchette proposée (11,8 M€ - 12,1 M€) représente un multiple d'EBE d'environ 5x (après déduction de la dette), ce qui semble raisonnable pour le secteur de la distribution électronique.`
+4. La fourchette proposée (11,8 M€ - 12,1 M€) représente un multiple d&apos;EBE d&apos;environ 5x (après déduction de la dette), ce qui semble raisonnable pour le secteur de la distribution électronique.`
       }
     ]
   }
@@ -351,8 +351,8 @@ export default function QuestionsDSCGPage() {
                                 onClick={() => toggleSolution(q.id)}
                                 className={`flex items-center gap-2 px-4 py-2 rounded-lg transition-colors ${
                                   openSolutions[q.id] 
-                                    ? 'bg-green-100 text-green-700' 
-                                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                                    ? 'bg-green-100 text-green-700'
+                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                                 }`}
                               >
                                 {openSolutions[q.id] ? (
@@ -457,7 +457,7 @@ export default function QuestionsDSCGPage() {
             <div className="bg-white rounded-xl p-6 shadow-sm">
               <h3 className="text-lg font-semibold text-indigo-800 mb-2">1. Analyse du contexte</h3>
               <p className="text-indigo-700">
-                Prenez le temps d'identifier les informations clés dans l'énoncé : données financières, 
+                Prenez le temps d&apos;identifier les informations clés dans l&apos;énoncé : données financières, 
                 hypothèses, contraintes spécifiques. Soulignez les chiffres importants.
               </p>
             </div>

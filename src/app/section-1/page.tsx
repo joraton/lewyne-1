@@ -35,10 +35,10 @@ export default function Section1Page() {
             <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center">
               <BarChart3 className="w-6 h-6 text-white" />
             </div>
-            <h1 className="text-3xl md:text-4xl font-bold text-gray-900">I - Méthodes d'Évaluation par Comparaison</h1>
+            <h1 className="text-3xl md:text-4xl font-bold text-gray-900">I - Méthodes d&apos;Évaluation par Comparaison</h1>
           </div>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Capitalisation boursière, valeur d'entreprise et multiples
+            Capitalisation boursière, valeur d&apos;entreprise et multiples
           </p>
         </motion.div>
 
@@ -58,14 +58,14 @@ export default function Section1Page() {
             
             <div className="prose prose-lg max-w-none">
               <p className="text-gray-700 leading-relaxed mb-6">
-                La capitalisation boursière représente la valeur de marché des capitaux propres d'une entreprise cotée. 
-                Elle se calcule en multipliant le nombre d'actions en circulation par le cours de bourse.
+                La capitalisation boursière représente la valeur de marché des capitaux propres d&apos;une entreprise cotée.
+                  Elle se calcule en multipliant le nombre d&apos;actions en circulation par le cours de bourse.
               </p>
               
               <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-6">
                 <h4 className="text-lg font-semibold text-blue-900 mb-3">📊 Formule</h4>
                 <div className="bg-white p-4 rounded border text-center">
-                  <strong className="text-xl">Capitalisation = Nombre d'actions × Cours de bourse</strong>
+                  <strong className="text-xl">Capitalisation = Nombre d&apos;actions × Cours de bourse</strong>
                 </div>
               </div>
 
@@ -76,7 +76,7 @@ export default function Section1Page() {
                     <h4 className="text-lg font-semibold text-yellow-900 mb-2">Attention</h4>
                     <p className="text-yellow-800">
                       La capitalisation boursière ne représente que la valeur des fonds propres, 
-                      pas la valeur totale de l'entreprise (qui inclut la dette).
+                      pas la valeur totale de l&apos;entreprise (qui inclut la dette).
                     </p>
                   </div>
                 </div>
@@ -88,13 +88,13 @@ export default function Section1Page() {
           <div className="bg-white rounded-2xl shadow-lg p-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <Calculator className="w-6 h-6 text-green-500" />
-              2. Valeur d'Entreprise (VE)
+              2. Valeur d&apos;Entreprise (VE)
             </h2>
             
             <div className="prose prose-lg max-w-none">
               <p className="text-gray-700 leading-relaxed mb-6">
-                La valeur d'entreprise représente la valeur totale de l'entreprise, indépendamment de sa structure financière. 
-                Elle correspond à la valeur que devrait payer un acquéreur pour racheter l'intégralité de l'entreprise.
+                La valeur d&apos;entreprise représente la valeur totale de l&apos;entreprise, indépendamment de sa structure financière.
+                  Elle correspond à la valeur que devrait payer un acquéreur pour racheter l&apos;intégralité de l&apos;entreprise.
               </p>
               
               <div className="bg-purple-50 border border-purple-200 rounded-lg p-6 mb-6">
@@ -136,7 +136,7 @@ export default function Section1Page() {
             
             <div className="prose prose-lg max-w-none">
               <p className="text-gray-700 leading-relaxed mb-6">
-                Les multiples boursiers permettent de comparer la valorisation d'entreprises similaires 
+                Les multiples boursiers permettent de comparer la valorisation d&apos;entreprises similaires 
                 en rapportant leur valeur à des agrégats financiers.
               </p>
               
@@ -152,17 +152,17 @@ export default function Section1Page() {
                   <tbody>
                     <tr>
                       <td className="border border-gray-300 px-4 py-3 font-medium">VE/CA</td>
-                      <td className="border border-gray-300 px-4 py-3">Valeur d'Entreprise / Chiffre d'Affaires</td>
+                      <td className="border border-gray-300 px-4 py-3">Valeur d&apos;Entreprise / Chiffre d&apos;Affaires</td>
                       <td className="border border-gray-300 px-4 py-3">Secteurs à forte croissance</td>
                     </tr>
                     <tr className="bg-gray-50">
                       <td className="border border-gray-300 px-4 py-3 font-medium">VE/EBE</td>
-                      <td className="border border-gray-300 px-4 py-3">Valeur d'Entreprise / EBITDA</td>
+                      <td className="border border-gray-300 px-4 py-3">Valeur d&apos;Entreprise / EBITDA</td>
                       <td className="border border-gray-300 px-4 py-3">Le plus utilisé</td>
                     </tr>
                     <tr>
                       <td className="border border-gray-300 px-4 py-3 font-medium">VE/RE</td>
-                      <td className="border border-gray-300 px-4 py-3">Valeur d'Entreprise / Résultat d'Exploitation</td>
+                      <td className="border border-gray-300 px-4 py-3">Valeur d&apos;Entreprise / Résultat d&apos;Exploitation</td>
                       <td className="border border-gray-300 px-4 py-3">Secteurs matures</td>
                     </tr>
                     <tr className="bg-gray-50">
@@ -177,12 +177,12 @@ export default function Section1Page() {
               <div className="bg-gray-50 p-6 rounded-xl border border-gray-200">
                 <h4 className="text-lg font-semibold text-gray-900 mb-3">💡 Moyen mnémotechnique</h4>
                 <p className="text-gray-700 mb-2">
-                  <strong>"CERP"</strong> pour retenir les principaux multiples :
+                  <strong>&quot;CERP&quot;</strong> pour retenir les principaux multiples :
                 </p>
                 <ul className="text-gray-700 space-y-1">
-                  <li><strong>C</strong>A (Chiffre d'Affaires) → VE/CA</li>
+                  <li><strong>C</strong>A (Chiffre d&apos;Affaires) → VE/CA</li>
                   <li><strong>E</strong>BE (EBITDA) → VE/EBE</li>
-                  <li><strong>R</strong>E (Résultat d'Exploitation) → VE/RE</li>
+                  <li><strong>R</strong>E (Résultat d&apos;Exploitation) → VE/RE</li>
                   <li><strong>P</strong>ER (Price Earnings Ratio) → Cap/RN</li>
                 </ul>
               </div>
@@ -212,7 +212,7 @@ export default function Section1Page() {
                 
                 <div className="border-l-4 border-orange-500 pl-6">
                   <h4 className="text-lg font-semibold text-gray-900 mb-2">Étape 4 : Application</h4>
-                  <p className="text-gray-700">Appliquer les multiples retenus aux agrégats financiers de l'entreprise à valoriser.</p>
+                  <p className="text-gray-700">Appliquer les multiples retenus aux agrégats financiers de l&apos;entreprise à valoriser.</p>
                 </div>
               </div>
             </div>

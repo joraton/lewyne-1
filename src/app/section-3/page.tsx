@@ -35,7 +35,7 @@ export default function Section3Page() {
             <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-600 rounded-full flex items-center justify-center">
               <Calculator className="w-6 h-6 text-white" />
             </div>
-            <h1 className="text-3xl md:text-4xl font-bold text-gray-900">IV - Méthodes Avancées d'Actualisation</h1>
+            <h1 className="text-3xl md:text-4xl font-bold text-gray-900">IV - Méthodes Avancées d&apos;Actualisation</h1>
           </div>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             VAN Globale, TIR Global et applications pratiques
@@ -58,7 +58,7 @@ export default function Section3Page() {
             
             <div className="prose prose-lg max-w-none">
               <p className="text-gray-700 leading-relaxed mb-6">
-                La VAN mesure la création de valeur d'un projet d'investissement en actualisant 
+                La VAN mesure la création de valeur d&apos;un projet d&apos;investissement en actualisant 
                 les flux de trésorerie futurs au coût du capital. Un projet est rentable si sa VAN est positive.
               </p>
               
@@ -68,14 +68,14 @@ export default function Section3Page() {
                   <strong className="text-xl">VAN = -I₀ + Σ CFₜ / (1+i)ᵗ</strong>
                   <br />
                   <span className="text-sm text-gray-600 mt-2 block">
-                    I₀ = Investissement initial | CFₜ = Cash Flow année t | i = Taux d'actualisation
+                    I₀ = Investissement initial | CFₜ = Cash Flow année t | i = Taux d&apos;actualisation
                   </span>
                 </div>
               </div>
 
               <div className="grid md:grid-cols-3 gap-4 mb-6">
                 <div className="bg-green-50 p-4 rounded-lg border border-green-200 text-center">
-                  <h5 className="font-semibold text-green-900 mb-2">VAN {'>'} 0</h5>
+                  <h5 className="font-semibold text-green-900 mb-2">VAN &gt; 0</h5>
                   <p className="text-green-800 text-sm">Projet rentable<br />→ Accepter</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg border border-gray-200 text-center">
@@ -83,7 +83,7 @@ export default function Section3Page() {
                   <p className="text-gray-800 text-sm">Projet neutre<br />→ Indifférent</p>
                 </div>
                 <div className="bg-red-50 p-4 rounded-lg border border-red-200 text-center">
-                  <h5 className="font-semibold text-red-900 mb-2">VAN {'<'} 0</h5>
+                  <h5 className="font-semibold text-red-900 mb-2">VAN &lt; 0</h5>
                   <p className="text-red-800 text-sm">Projet non rentable<br />→ Rejeter</p>
                 </div>
               </div>
@@ -94,8 +94,8 @@ export default function Section3Page() {
                   <div>
                     <h4 className="text-lg font-semibold text-blue-900 mb-2">Hypothèse implicite</h4>
                     <p className="text-blue-800">
-                      La VAN suppose que les cash flows intermédiaires sont réinvestis au taux d'actualisation. 
-                      Si ce n'est pas le cas, il faut utiliser la VAN Globale.
+                      La VAN suppose que les cash flows intermédiaires sont réinvestis au taux d&apos;actualisation.
+                Si ce n&apos;est pas le cas, il faut utiliser la VAN Globale.
                     </p>
                   </div>
                 </div>
@@ -113,7 +113,7 @@ export default function Section3Page() {
             <div className="prose prose-lg max-w-none">
               <p className="text-gray-700 leading-relaxed mb-6">
                 La VAN Globale prend en compte explicitement le taux de réinvestissement des cash flows intermédiaires, 
-                qui peut être différent du taux d'actualisation.
+                qui peut être différent du taux d&apos;actualisation.
               </p>
               
               <div className="bg-purple-50 border border-purple-200 rounded-lg p-6 mb-6">
@@ -122,14 +122,14 @@ export default function Section3Page() {
                   <strong className="text-xl">VANG = -I₀ + Σ [CFₜ × (1+j)ⁿ⁻ᵗ] / (1+i)ⁿ</strong>
                   <br />
                   <span className="text-sm text-gray-600 mt-2 block">
-                    j = Taux de placement des CF | i = Taux d'actualisation | n = Durée du projet
+                    j = Taux de placement des CF | i = Taux d&apos;actualisation | n = Durée du projet
                   </span>
                 </div>
               </div>
 
               <div className="grid md:grid-cols-2 gap-6 mb-6">
                 <div className="bg-green-50 p-6 rounded-xl border border-green-200">
-                  <h4 className="text-lg font-semibold text-green-900 mb-3">Cas j {'>'} i</h4>
+                  <h4 className="text-lg font-semibold text-green-900 mb-3">Cas j &gt; i</h4>
                   <p className="text-green-800 text-sm">
                     Les CF sont réinvestis à un taux supérieur au coût du capital.
                     La VANG sera supérieure à la VAN classique.
@@ -137,7 +137,7 @@ export default function Section3Page() {
                 </div>
                 
                 <div className="bg-red-50 p-6 rounded-xl border border-red-200">
-                  <h4 className="text-lg font-semibold text-red-900 mb-3">Cas j {'<'} i</h4>
+                  <h4 className="text-lg font-semibold text-red-900 mb-3">Cas j &lt; i</h4>
                   <p className="text-red-800 text-sm">
                     Les CF sont réinvestis à un taux inférieur au coût du capital.
                     La VANG sera inférieure à la VAN classique.
@@ -152,7 +152,7 @@ export default function Section3Page() {
                     <h4 className="text-lg font-semibold text-yellow-900 mb-2">Remarque importante</h4>
                     <p className="text-yellow-800">
                       Si j = i, alors VANG = VAN. La VAN classique suppose implicitement 
-                      que les CF sont réinvestis au taux d'actualisation.
+                      que les CF sont réinvestis au taux d&apos;actualisation.
                     </p>
                   </div>
                 </div>
@@ -166,7 +166,7 @@ export default function Section3Page() {
             
             <div className="prose prose-lg max-w-none">
               <p className="text-gray-700 leading-relaxed mb-6">
-                Le TIR est le taux d'actualisation qui annule la VAN. Il représente la rentabilité intrinsèque du projet.
+                Le TIR est le taux d&apos;actualisation qui annule la VAN. Il représente la rentabilité intrinsèque du projet.
               </p>
               
               <div className="grid md:grid-cols-2 gap-6 mb-6">
@@ -176,7 +176,7 @@ export default function Section3Page() {
                     <strong>VAN = 0 ⟺ TIR = i</strong>
                   </div>
                   <p className="text-blue-800 text-sm">
-                    Critère de décision : Accepter le projet si TIR {'>'} coût du capital
+                    Critère de décision : Accepter le projet si TIR &gt; coût du capital
                   </p>
                 </div>
                 
@@ -203,7 +203,7 @@ export default function Section3Page() {
                 <ul className="text-gray-700 space-y-1">
                   <li>• Investissement initial : 100 000 €</li>
                   <li>• Cash flows annuels : 20 000 € pendant 3 ans</li>
-                  <li>• Taux d'actualisation (CMPC) : 10%</li>
+                  <li>• Taux d&apos;actualisation (CMPC) : 10%</li>
                   <li>• Taux de replacement : 3%</li>
                 </ul>
               </div>
@@ -217,7 +217,7 @@ export default function Section3Page() {
                     <div>+ 20 000/(1,10)² = 16 529</div>
                     <div>+ 20 000/(1,10)³ = 15 026</div>
                     <div className="border-t pt-2 font-bold text-green-600">
-                      VAN = -50 263 € {'<'} 0
+                      VAN = -50 263 € &lt; 0
                     </div>
                   </div>
                 </div>
@@ -230,7 +230,7 @@ export default function Section3Page() {
                     <div>= -100 000 + 62 836 / 1,331</div>
                     <div>= -100 000 + 47 208</div>
                     <div className="border-t pt-2 font-bold text-red-600">
-                      VANG = -52 792 € {'<'} 0
+                      VANG = -52 792 € &lt; 0
                     </div>
                   </div>
                 </div>
@@ -239,7 +239,7 @@ export default function Section3Page() {
               <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg">
                 <h4 className="text-lg font-semibold text-blue-900 mb-2">Conclusion</h4>
                 <p className="text-blue-800">
-                  Dans cet exemple, le taux de replacement (3%) est inférieur au taux d'actualisation (10%), 
+                  Dans cet exemple, le taux de replacement (3%) est inférieur au taux d&apos;actualisation (10%), 
                   ce qui explique que la VANG soit plus faible que la VAN. Le projet est rejeté dans les deux cas.
                 </p>
               </div>
@@ -263,10 +263,10 @@ export default function Section3Page() {
                 <div className="bg-purple-50 border border-purple-200 rounded-lg p-6">
                   <h4 className="text-lg font-semibold text-purple-900 mb-3">Valeur Pré-Money</h4>
                   <div className="bg-white p-3 rounded border text-center mb-3">
-                    <strong>Valeur avant l'investissement</strong>
+                    <strong>Valeur avant l&apos;investissement</strong>
                   </div>
                   <p className="text-purple-800 text-sm">
-                    Valorisation de l'entreprise avant la levée de fonds, 
+                    Valorisation de l&apos;entreprise avant la levée de fonds, 
                     basée sur les actifs existants et les perspectives.
                   </p>
                 </div>
@@ -274,7 +274,7 @@ export default function Section3Page() {
                 <div className="bg-green-50 border border-green-200 rounded-lg p-6">
                   <h4 className="text-lg font-semibold text-green-900 mb-3">Valeur Post-Money</h4>
                   <div className="bg-white p-3 rounded border text-center mb-3">
-                    <strong>Valeur après l'investissement</strong>
+                    <strong>Valeur après l&apos;investissement</strong>
                   </div>
                   <p className="text-green-800 text-sm">
                     Valeur Post-Money = Valeur Pré-Money + Montant investi
@@ -301,10 +301,10 @@ export default function Section3Page() {
               <div className="bg-gray-50 p-6 rounded-xl border border-gray-200">
                 <h4 className="text-lg font-semibold text-gray-900 mb-3">💡 Moyen mnémotechnique</h4>
                 <p className="text-gray-700 mb-2">
-                  <strong>"VANG-TIR"</strong> pour retenir les méthodes avancées :
+                  <strong>&quot;VANG-TIR&quot;</strong> pour retenir les méthodes avancées :
                 </p>
                 <ul className="text-gray-700 space-y-1">
-                  <li><strong>V</strong>AN → Méthode de base avec réinvestissement au taux d'actualisation</li>
+                  <li><strong>V</strong>AN → Méthode de base avec réinvestissement au taux d&apos;actualisation</li>
                   <li><strong>A</strong>justement → VANG avec taux de replacement différent</li>
                   <li><strong>N</strong>eutralité → VAN = 0 quand TIR = coût du capital</li>
                   <li><strong>G</strong>lobale → VANG et TIRG pour plus de réalisme</li>

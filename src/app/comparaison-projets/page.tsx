@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { ArrowLeft, ArrowRight, GitCompare, Clock, Calculator, TrendingUp, Target, AlertCircle, Lightbulb, BarChart3 } from 'lucide-react';
+import { ArrowLeft, ArrowRight, GitCompare, Clock, Calculator, Target, AlertCircle, Lightbulb, BarChart3 } from 'lucide-react';
 
 export default function ComparaisonProjetsPage() {
   return (
@@ -97,7 +97,7 @@ export default function ComparaisonProjetsPage() {
             <div className="bg-blue-50 p-4 rounded-lg">
               <h4 className="font-semibold text-blue-800 mb-3">🎯 Taux pivot</h4>
               <div className="text-blue-700 space-y-2">
-                <p>Le <strong>taux pivot</strong> est le taux d'actualisation pour lequel VAN(X) = VAN(Y)</p>
+                <p>Le <strong>taux pivot</strong> est le taux d&apos;actualisation pour lequel VAN(X) = VAN(Y)</p>
                 <p>Dans cet exemple : <strong>taux pivot = 15,2%</strong></p>
                 <div className="mt-3 p-3 bg-white rounded border">
                   <p className="text-sm">• Si i &lt; 15,2% → Choisir Y (VAN plus élevée)</p>
@@ -171,9 +171,9 @@ export default function ComparaisonProjetsPage() {
             <div className="bg-yellow-50 border border-yellow-200 p-4 rounded-lg">
               <h4 className="font-semibold text-yellow-800 mb-2">⚠️ Hypothèses du PPCM</h4>
               <div className="text-yellow-700 space-y-2">
-                <p>• Les projets peuvent être répétés à l'identique</p>
+                <p>• Les projets peuvent être répétés à l&apos;identique</p>
                 <p>• Les conditions économiques restent stables</p>
-                <p>• Pas d'évolution technologique</p>
+                <p>• Pas d&apos;évolution technologique</p>
                 <p>• Disponibilité des financements</p>
               </div>
             </div>
@@ -199,21 +199,21 @@ export default function ComparaisonProjetsPage() {
               <div className="flex items-start">
                 <Lightbulb className="w-5 h-5 text-green-400 mt-0.5 mr-3 flex-shrink-0" />
                 <div>
-                  <h3 className="font-semibold text-green-800 mb-2">Principe de l'AEQ</h3>
+                  <h3 className="font-semibold text-green-800 mb-2">Principe de l&apos;AEQ</h3>
                   <p className="text-green-700">
-                    L'annuité équivalente transforme la VAN en rente constante sur la durée du projet.
+                    L&apos;annuité équivalente transforme la VAN en rente constante sur la durée du projet.
                   </p>
                 </div>
               </div>
             </div>
 
             <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="font-semibold text-gray-900 mb-4">Formule de l'AEQ</h3>
+              <h3 className="font-semibold text-gray-900 mb-4">Formule de l&apos;AEQ</h3>
               <div className="bg-white p-4 rounded border text-center">
                 <p className="font-mono text-lg mb-2">AEQ = VAN × [i(1+i)ⁿ] / [(1+i)ⁿ - 1]</p>
                 <div className="text-sm text-gray-600 space-y-1">
                   <p>• VAN = Valeur Actuelle Nette du projet</p>
-                  <p>• i = Taux d'actualisation</p>
+                  <p>• i = Taux d&apos;actualisation</p>
                   <p>• n = Durée du projet</p>
                 </div>
               </div>
@@ -249,10 +249,10 @@ export default function ComparaisonProjetsPage() {
             </div>
 
             <div className="bg-blue-50 border border-blue-200 p-4 rounded-lg">
-              <h4 className="font-semibold text-blue-800 mb-2">💡 Avantages de l'AEQ</h4>
+              <h4 className="font-semibold text-blue-800 mb-2">💡 Avantages de l&apos;AEQ</h4>
               <div className="text-blue-700 space-y-2">
                 <p>• Méthode plus simple que le PPCM</p>
-                <p>• Pas besoin d'hypothèses sur la répétition des projets</p>
+                <p>• Pas besoin d&apos;hypothèses sur la répétition des projets</p>
                 <p>• Facilite la comparaison directe</p>
                 <p>• Interprétation intuitive (rente annuelle)</p>
               </div>
@@ -280,7 +280,7 @@ export default function ComparaisonProjetsPage() {
               <div className="text-purple-700 space-y-2">
                 <p><strong>Projet A :</strong> I₀ = -10 000€, CF₁ = 6 000€, CF₂ = 8 000€</p>
                 <p><strong>Projet B :</strong> I₀ = -10 000€, CF₁ = 4 000€, CF₂ = 5 000€, CF₃ = 6 000€</p>
-                <p><strong>Taux d'actualisation :</strong> 12%</p>
+                <p><strong>Taux d&apos;actualisation :</strong> 12%</p>
               </div>
             </div>
 
@@ -382,11 +382,11 @@ export default function ComparaisonProjetsPage() {
             <div className="space-y-3">
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
-                <p className="text-gray-700">L'AEQ est plus pratique que le PPCM pour comparer des durées différentes</p>
+                <p className="text-gray-700">L&apos;AEQ est plus pratique que le PPCM pour comparer des durées différentes</p>
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
-                <p className="text-gray-700">L'AEQ transforme la VAN en rente annuelle équivalente</p>
+                <p className="text-gray-700">L&apos;AEQ transforme la VAN en rente annuelle équivalente</p>
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>

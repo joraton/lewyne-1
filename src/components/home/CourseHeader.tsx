@@ -45,7 +45,7 @@ export default function CourseHeader() {
             transition={{ delay: 0.4 }}
             className="text-lg text-blue-100 mb-6 leading-relaxed"
           >
-            Maîtrisez les méthodes d'évaluation d'entreprise : approches analogiques, DCF, CMPC et valorisation par les multiples. Un cours complet avec exemples pratiques et exercices DSCG.
+            Maîtrisez les méthodes d&apos;évaluation d&apos;entreprise : approches analogiques, DCF, CMPC et valorisation par les multiples. Un cours complet avec exemples pratiques et exercices DSCG.
           </motion.p>
 
           {/* Badges */}

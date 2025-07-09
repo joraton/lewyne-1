@@ -3,24 +3,16 @@
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { 
-  Rocket, 
-  TrendingUp, 
-  Calculator, 
-  HelpCircle, 
-  Award, 
-  BarChart3,
   ArrowRight,
   LucideIcon
 } from 'lucide-react';
 
 interface SectionBlockProps {
-  id: string;
   title: string;
   description: string;
   icon: LucideIcon;
   color: string;
   href: string;
-  index?: number;
 }
 
 const colorMap = {
@@ -75,13 +67,11 @@ const colorMap = {
 };
 
 export default function SectionBlock({ 
-  id, 
   title, 
   description, 
   icon: IconComponent, 
   color, 
-  href,
-  index 
+  href
 }: SectionBlockProps) {
   const colors = colorMap[color as keyof typeof colorMap] || colorMap.blue;
 

@@ -2,21 +2,21 @@
 
 import { motion } from 'framer-motion';
 import { Target, Rocket, BarChart3, TrendingUp, Calculator, HelpCircle, Award, GitCompare, PieChart } from 'lucide-react';
-import SectionBlock from './SectionBlock.tsx';
+import SectionBlock from './SectionBlock';
 
 const sections = [
   {
     id: 'introduction',
     title: 'Introduction',
-    description: 'Concepts fondamentaux de l\'évaluation financière',
+    description: 'Concepts fondamentaux de l&apos;évaluation financière',
     icon: Rocket,
     color: 'blue',
     href: '/introduction'
   },
   {
     id: 'section-1',
-    title: 'I - Méthodes d\'Évaluation par Comparaison',
-    description: 'Capitalisation boursière, valeur d\'entreprise et multiples',
+    title: 'I - Méthodes d&apos;Évaluation par Comparaison',
+    description: 'Capitalisation boursière, valeur d&apos;entreprise et multiples',
     icon: BarChart3,
     color: 'green',
     href: '/section-1'
@@ -39,7 +39,7 @@ const sections = [
   },
   {
     id: 'section-3',
-    title: 'IV - Méthodes Avancées d\'Actualisation',
+    title: 'IV - Méthodes Avancées d&apos;Actualisation',
     description: 'VAN Globale, TIR Global et applications pratiques',
     icon: Calculator,
     color: 'orange',
@@ -55,8 +55,8 @@ const sections = [
   },
   {
     id: 'van-probabilisee',
-    title: 'VI - Gestion du Risque dans l\'Évaluation',
-    description: 'VAN Probabilisée et intégration de l\'incertitude',
+    title: 'VI - Gestion du Risque dans l&apos;Évaluation',
+    description: 'VAN Probabilisée et intégration de l&apos;incertitude',
     icon: PieChart,
     color: 'cyan',
     href: '/van-probabilisee'
@@ -106,7 +106,7 @@ export default function CoursePlan() {
           transition={{ delay: 0.6 }}
           className="text-gray-600 text-lg"
         >
-          Suivez le parcours structuré pour maîtriser l'évaluation financière
+          Suivez le parcours structuré pour maîtriser l&apos;évaluation financière
         </motion.p>
       </div>
 
@@ -119,7 +119,13 @@ export default function CoursePlan() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.7 + index * 0.1 }}
           >
-            <SectionBlock {...section} index={index} />
+            <SectionBlock 
+              title={section.title}
+              description={section.description}
+              icon={section.icon}
+              color={section.color}
+              href={section.href}
+            />
           </motion.div>
         ))}
       </div>
