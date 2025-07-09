@@ -466,7 +466,7 @@ export default function QuestionsDSCGPage() {
               <h3 className="text-lg font-semibold text-indigo-800 mb-2">2. Choix de la méthode</h3>
               <p className="text-indigo-700">
                 Adaptez votre approche au contexte : méthodes analogiques pour les comparaisons sectorielles, 
-                DCF pour les projections long terme, VAN/TIR pour les décisions d'investissement.
+                DCF pour les projections long terme, VAN/TIR pour les décisions d&apos;investissement.
               </p>
             </div>
             

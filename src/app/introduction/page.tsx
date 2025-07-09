@@ -79,7 +79,7 @@ export default function IntroductionPage() {
                 <div>
                   <h4 className="text-lg font-semibold text-yellow-900 mb-2">Point clé</h4>
                   <p className="text-yellow-800">
-                    Il n&apos;existe pas une seule "vraie" valeur d&apos;une entreprise, mais plutôt une fourchette de valeurs 
+                    Il n&apos;existe pas une seule &quot;vraie&quot; valeur d&apos;une entreprise, mais plutôt une fourchette de valeurs 
                     dépendant de la méthode utilisée, du contexte et des hypothèses retenues.
                   </p>
                 </div>
@@ -137,7 +137,7 @@ export default function IntroductionPage() {
             <div className="bg-gray-50 p-6 rounded-xl border border-gray-200">
               <h4 className="text-lg font-semibold text-gray-900 mb-3">💡 Moyen mnémotechnique</h4>
               <p className="text-gray-700 mb-2">
-                <strong>"CAVE"</strong> pour retenir les étapes clés :
+                <strong>&quot;CAVE&quot;</strong> pour retenir les étapes clés :
               </p>
               <ul className="text-gray-700 space-y-1">
                 <li><strong>C</strong>omparables (méthodes analogiques)</li>

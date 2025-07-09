@@ -237,7 +237,7 @@ export default function Section2Page() {
               <div className="bg-gray-50 p-6 rounded-xl border border-gray-200">
                 <h4 className="text-lg font-semibold text-gray-900 mb-3">💡 Moyen mnémotechnique</h4>
                 <p className="text-gray-700 mb-2">
-                  <strong>"FCVT"</strong> pour retenir les étapes du DCF :
+                  <strong>&quot;FCVT&quot;</strong> pour retenir les étapes du DCF :
                 </p>
                 <ul className="text-gray-700 space-y-1">
                   <li><strong>F</strong>CF (Free Cash Flow) → Calcul des flux prévisionnels</li>

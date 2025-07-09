@@ -157,12 +157,7 @@ export default function QuizPage() {
     setQuizCompleted(false);
   };
 
-  const getScoreColor = () => {
-    const percentage = (score / questions.length) * 100;
-    if (percentage >= 80) return 'text-green-600';
-    if (percentage >= 60) return 'text-yellow-600';
-    return 'text-red-600';
-  };
+
 
   const getScoreMessage = () => {
     const percentage = (score / questions.length) * 100;

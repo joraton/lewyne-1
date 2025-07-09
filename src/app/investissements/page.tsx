@@ -167,7 +167,7 @@ export default function InvestissementsPage() {
               <h4 className="font-semibold text-purple-800 mb-2">📈 Interprétation</h4>
               <div className="text-purple-700 space-y-2">
                 <p>• <strong>IP &gt; 1 :</strong> Projet rentable (VAN &gt; 0)</p>
-                <p>• <strong>IP = 1 :</strong> Projet à l'équilibre (VAN = 0)</p>
+                <p>• <strong>IP = 1 :</strong> Projet à l&apos;équilibre (VAN = 0)</p>
                 <p>• <strong>IP &lt; 1 :</strong> Projet non rentable (VAN &lt; 0)</p>
                 <p className="mt-3"><strong>Avantage :</strong> Permet de comparer des projets de tailles différentes</p>
               </div>
