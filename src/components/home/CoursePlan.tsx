@@ -85,33 +85,33 @@ export default function CoursePlan() {
       initial={{ opacity: 0, y: 30 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, delay: 0.3 }}
-      className="bg-white rounded-2xl shadow-lg p-8"
+      className="bg-white rounded-xl sm:rounded-2xl shadow-lg p-4 sm:p-8"
     >
       {/* Header */}
-      <div className="text-center mb-8">
+      <div className="text-center mb-6 sm:mb-8">
         <motion.div
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
           transition={{ delay: 0.5, type: "spring", stiffness: 200 }}
           className="inline-flex items-center gap-3 mb-4"
         >
-          <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center">
-            <Target className="w-6 h-6 text-white" />
+          <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center">
+            <Target className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
           </div>
-          <h2 className="text-2xl md:text-3xl font-bold text-gray-900">Plan du cours</h2>
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900">Plan du cours</h2>
         </motion.div>
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6 }}
-          className="text-gray-600 text-lg"
+          className="text-gray-600 text-sm sm:text-lg"
         >
           Suivez le parcours structuré pour maîtriser l&apos;évaluation financière
         </motion.p>
       </div>
 
       {/* Sections */}
-      <div className="space-y-4">
+      <div className="space-y-3 sm:space-y-4">
         {sections.map((section, index) => (
           <motion.div
             key={section.id}
